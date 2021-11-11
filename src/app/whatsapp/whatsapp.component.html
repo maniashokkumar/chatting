@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="names">
+        <div class="profile">
+            <img [src]="profiledp" width="60" height="60">
+            <div class="faf">
+            <i class="far fa-address-book" id="fa" style="font-size:25px"></i>
+            <i class="fa fa-ellipsis-v" id="fa" style="font-size:25px"></i></div>
+        </div>
+        <div class="search">
+            <input placeholder="Search Name">
+        </div>
+        <div class="users" (click)="agent()">
+            <div class="userimg">
+                <img [src]="agentdp" width="80" height="80">
+                
+            </div>
+           <div class="username">
+            <h1>Agent</h1>
+            <p>seen in customer device</p>
+           </div>
+         
+        </div>
+        <div class="users" (click)="customer()">
+            <div class="userimg">
+                <img [src]="customerdp" width="80" height="80">
+            </div>
+           <div class="username">
+            <h1>customer</h1>
+            <p>seen in Agent device</p>
+           </div>
+         
+        </div>
+
+    </div>
+    <div class="mesg">
+        <div *ngIf="display_Agent">
+             <app-agent></app-agent>
+        </div>
+        <div *ngIf="display_Customr">
+             <app-customer></app-customer>
+        </div>
+
+    </div>
+</div>

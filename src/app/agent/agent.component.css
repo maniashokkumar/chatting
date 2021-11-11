@@ -1,0 +1,67 @@
+.heading{
+    background-color: rgb(223, 223, 226);
+   padding-left: 10px;
+   height: 80px;
+   
+  }
+  .heading p, h1{
+      margin: 0;
+  }
+  input{
+      width: 35%;
+      height: 30PX;
+      margin-left: 25px;
+      bottom: 100px;
+    position: fixed;
+    border-radius: 30px;
+  
+    
+      
+  }
+  .message{
+      background-color: #005d4b;
+      padding: 5px;
+      margin-top: 5px;
+      
+      color: white;
+      width: 350px;
+      margin-left: 250px;
+      border-radius: 15px;
+  
+  }
+  .message1{
+    background-color: #1f2c34;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+   
+    width: 350px;
+    border-radius: 15px;
+    
+  }
+  .time{
+    font-size: 10px;
+    color: rgb(172, 171, 171);
+  }
+  .profile{
+    display: flex;
+    padding-top: 10px;
+}
+  i{
+      height: 35px;
+      width: 5%;
+      bottom: 100px;
+      position: fixed;
+      margin-left: 38%;
+      
+     
+  }
+  .chat{
+    overflow:scroll;
+    height: 400px;
+    overflow-x: hidden;
+}
+#fa{
+    margin-left: 400px;
+    margin-top: 10px;
+}

@@ -1,0 +1,82 @@
+.names{
+   
+    width: 30%;
+    margin-left: 30px;
+    background-color: #EDEDED;
+}
+.container{
+   
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 35px;
+    display: flex;
+  height: 500px;
+  padding: 25px;
+  background-color: #009688;
+ 
+ 
+}
+img{
+    border-radius: 50%;
+}
+.mesg{
+    width: 60%;
+    background: white;
+
+}
+.profile{
+    border:1px solid #EDEDED;
+    height: 60px;
+    width: 100%;
+    background-color: #EDEDED;
+   
+}
+.profile img{
+    float: left;
+}
+.fa{
+    margin-left: 30px;
+}
+.faf{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.search{
+    border:1px solid #EDEDED;
+    background-color: #EDEDED;
+    padding:2px;
+    text-align: center;
+    
+}
+.search input{
+    width: 80%;
+    border: 0px solid white;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.users{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.username{
+
+    width: 75%;
+}
+.userimg{
+   
+    width: 25%;
+
+    
+}
+.users:hover{
+    background-color: rgb(221, 220, 220);
+}
+.username h1{
+    margin: 0;
+    padding: 0;
+}

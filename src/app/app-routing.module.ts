@@ -1,7 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { WhatsappComponent } from './whatsapp/whatsapp.component';
+
+const routes: Routes = [
+ {
+   path:"",
+   component:WhatsappComponent
+ },
+ 
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
